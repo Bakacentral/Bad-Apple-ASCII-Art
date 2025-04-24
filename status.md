@@ -2,15 +2,12 @@
 
 #### Your name
 
-TODO
+Jason Dong
 
-#### Your section leader's name
-
-TODO
 
 #### Project title
 
-TODO
+Bad Apple ASCII Art
 
 ***
 
@@ -18,12 +15,12 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 
 #### What have you done for your project so far?
 
-TODO
+I have imported all frames necessary for the project and finished my research on how to approach ASCII art
 
 #### What have you not done for your project yet?
 
-TODO
+I have yet to outline what my project code looks like.
 
 #### What problems, if any, have you encountered?
 
-TODO
+The frames also include grey blobs, so its not just black and white imagery which I need to convert.
