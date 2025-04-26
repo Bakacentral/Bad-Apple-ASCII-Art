@@ -39,5 +39,5 @@ There is currently no implementation of music, I'm not sure if python can play m
 Framerate does not sync up to the actual music video, need to see how many frames my code is running at and how many the actual video is running at. 
 There seems to be some moments where the code struggles to print out, causing slight lag in the printing process, this will cause it to go off sync from the video.
 Desired results: Somehow get the printed result to match the entire width python
-~~Make it so that the images are actually printing in order, issue with how python reads the order of numbers .ie 10 comes before 2~~
+~Make it so that the images are actually printing in order, issue with how python reads the order of numbers .ie 10 comes before 2~
 """
