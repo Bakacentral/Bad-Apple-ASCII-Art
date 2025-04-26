@@ -1,6 +1,7 @@
 import os
 from PIL import Image
 from natsort import natsorted
+from time import sleep
 
 asciiChars = ["@", '*', "0", ".", "/", "%", "+", "=", ";", ",", "-", '#', '\'', '"', "'"]
 
@@ -30,14 +31,18 @@ def convert(updatedWidth=100):
         pixelCount = len(output)
         asciiImage = "\n".join([output[index:(index + updatedWidth)] for index in range(0, pixelCount, updatedWidth)])
         print(asciiImage)
-    
+        sleep(0.021)
 convert()
 
 """
 Current issues 4/26: 
 There is currently no implementation of music, I'm not sure if python can play music but I will be testing that out. 
-Framerate does not sync up to the actual music video, need to see how many frames my code is running at and how many the actual video is running at. 
-There seems to be some moments where the code struggles to print out, causing slight lag in the printing process, this will cause it to go off sync from the video.
+
+~~Framerate does not sync up to the actual music video, need to see how many frames my code is running at and how many the actual video is running at. 
+There seems to be some moments where the code struggles to print out, causing slight lag in the printing process, this will cause it to go off sync from the video.~~
+*Fixed by adding in sleep, which will manually slow down the code in order to match the time (this number was figured out through trial and error)*
+
 Desired results: Somehow get the printed result to match the entire width python
+
 ~Make it so that the images are actually printing in order, issue with how python reads the order of numbers .ie 10 comes before 2~
 """
