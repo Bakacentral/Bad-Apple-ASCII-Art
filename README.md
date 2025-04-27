@@ -8,7 +8,7 @@ This Project is heavily inspired by youtuber Junferno(https://www.youtube.com/@J
 
 Final Project Video
 
-https://www.youtube.com/watch?v=Xpw_-MhCeLc&feature=youtu.be 
+https://youtu.be/-e0nGVf8yGQ
 
 
 The difficulties I faced in this project was mainly trying to sync up my audio with my visuals and having those things match up with the actual music video itself. Since setting the "sleep" delay to 1/30 didn't actually mean I was setting my animation to 30 frames per second for whatever reason, I had to manually find out which speed works best and that took hours of trial and error. 
